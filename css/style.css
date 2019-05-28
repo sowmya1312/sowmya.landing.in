@@ -1,0 +1,262 @@
+.head{
+  width: 100%;
+  background-image: url('../images/bg-image-1.jpg') ;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: auto;
+}
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: url('../images/preload.gif') no-repeat center;
+  z-index: 999999;
+
+}
+.head h1{
+  color: #75bca7;
+  text-align: center;
+}
+.head p{
+  text-align: center;
+  font-size: 3vw;
+}
+.head button{
+  text-align: center;
+  position: relative;
+  left: 550px;;
+}
+.templates h4{
+  text-align: center;
+  padding: 10px 10px;
+}
+.power h1{
+  color: #75bca7;
+  text-align: center;
+}
+.power h2{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.rounded-cricel{
+  background-color: #fff;
+  box-shadow:  0 4px 8px 0 rgb(0, 0, 0,0.2) !important;
+  width: 112px;
+  height: 66px;
+  border-radius: 50%;
+  padding: 26px 20px;
+}
+.power i{
+  color: #75bc97;
+  text-align: center;
+  margin-top: 25px;
+}
+.variety h1{
+  color: #75bc97;
+  text-align: center;
+
+}
+.variety p{
+  text-align: center;
+  font-size: 3vw;
+}
+.frequently{
+  margin: 0px;
+  padding: 0px;
+}
+.frequently h2{
+  color: #75bc97;
+ 
+}
+.frequently h6{
+  font-size: 1.9vw;
+}
+.frequently .fa-angle-down{
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow:  0 4px 8px 0 rgb(0, 0, 0,0.2) !important;
+  max-width: 40px;
+}
+.frequently .fa-angle-right{
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow:  0 4px 8px 0 rgb(0, 0, 0,0.2) !important;
+}
+.support h1{
+  color: #75bc97;
+  text-align: center;
+}
+.support p{
+  font-size: 2vw;
+  text-align: center;
+
+}
+.support btn-primary{
+  text-align: center;
+}
+.support{
+  background-image: url('../images/bg-image-2.jpg') ;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.indexfooter{
+text-align: center;
+font-size: 1.5vw;
+color: #000000;
+}
+/*-------------------------index-1------------------------*/
+.literature{
+  position: absolute;
+  top:10%;
+}
+.navber-item .navbar-link{
+  color: #Fff;
+  }
+  .nabar-item navbar-link:hover, .dropdown:hover .dropbtn {
+  color: GREEN;
+  text-decoration: none;
+  }
+  .navbar-item .dropdown {
+  display: inline-block;
+  }
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 240px;
+  padding: 12PX;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  .dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 950px;
+  height: auto;
+  padding: 12PX;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  .conte{
+  min-width: 978px;
+  height: auto;
+  left: -523px;
+  display: none;
+  position: absolute;
+  }
+  .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 238px;
+  text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown:hover .dropdown-content {
+  display: block;
+  }
+  .newday{
+    position: absolute;
+    top: 35%;
+  }
+  .newday h2{
+    color: #fff;
+    text-align: center;
+  }
+  .newday h6{
+    font-size: 2vw;
+    color: #fff;
+    text-align: center;
+  }
+  .newday .btn-warning{
+    position: relative;
+    left: 511px;
+  }
+  .orgnic i{
+      width: 80px;
+      height: 84px;
+      color: #fff;
+      background-color: #75bc97;
+      border-radius: 50%;
+      padding: 22px;
+    font-size: 3vw;
+  }
+  #slider{
+    overflow: hidden;
+  }
+  #slider figure{
+    position:relative;
+    width: 500%;
+    margin:0;
+    left: 0;
+    top: 0;
+    animation: slider 20s infinite;
+  }
+  #slider figure img{ 
+    width: 20%;
+    height: 70%;
+    float: left;
+  }
+  #slider figure #left{
+    width: 10%;
+    height: 10%;
+    float: left;
+    top:40px;
+    position: fixed;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  #slider figure #right{
+    width: 20%;
+    height: 10%;
+    top:20px;
+    position: fixed;
+    float: right;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  @keyframes slider{
+    0%{
+      left: 0;
+    }
+    20%{
+      left: 0;
+    }
+    25%{
+      left: -100%;
+    }
+    45%{
+      left: -100%;
+    }
+    50%{
+      left: -200%;
+    }
+    70%{
+      left: -200%;
+    }
+    75%{
+      left: -300%;
+    }
+    95%{
+      left: -300%;
+    }
+  }
+.box{
+  border:2px solid gray;
+  width: 80px;
+  margin-right: 10px;
+}
